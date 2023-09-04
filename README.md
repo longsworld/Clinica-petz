@@ -72,7 +72,3 @@ No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** d
 
 Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
 
-Bora pra cima!
-=======
-# clinica-petz
->>>>>>> 3d6f8a08d85744d8c205b33bc25aecd177bf158e
