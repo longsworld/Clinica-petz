@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(253, 253, 253);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+.img-container {
+  text-align: center;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(69, 180, 184);
+    padding: 120px 2px 0px;
+    font-weight: bold;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+.center{
+    width: 333px; 
+    display: inline-block;
+    float: center;
+    text-align: center;
+    color: white;
+}
+.right{
+    width: 334px; 
+    display: inline-block;
+    float: right;
+    text-align: center;
+    color: white;
+}
+.left {
+    width: 333px; 
+    display: inline-block;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.frame{
+    margin: 20px 0 0px 0;
+
+}
+.right-footer{
+    width: 334px; 
+    display: inline-block;
+    float: right;
+    text-align: center;
+    color: white;
+    margin: -75px 0px -75px 100px;
+}

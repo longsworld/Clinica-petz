@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica pet shop</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="horary.html">Horarios</a></li>
+                <li><a href="about.html">Sobre Nós</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="img-container">
+
+                <img src="assets/logo-pet.jpg" width="600px" align="middle" />
+                <!-- Aqui vai o seu header -->
+            </div>
+
+            <div class="content">
+                <h1 class="h1" align="center"><strong>Entre em contato conosco</strong></h1>
+                <p align="center"> preencha o formulario abaixo para entrar em contato!</p>
+
+                <div class="form-container">
+                    <form action="#" method="post">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required><br>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+            
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required><br>
+            
+                        <label for="cliente">Você é cliente?</label>
+                        <select id="cliente" name="cliente">
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                        </select><br>
+            
+                        <label for="message"><strong>Assunto:</strong></label><br>
+                        <textarea rows="4" cols="50" id="message" name="message"></textarea><br>
+            
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </form>
+                </div>
+                    <hr>
+                    <div class="frame">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3839.2393252285597!2d-47.88754991940757!3d-15.791329783791785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDQ3JzI4LjgiUyA0N8KwNTInNTcuNiJX!5e0!3m2!1spt-BR!2sbr!4v1692932513396!5m2!1spt-BR!2sbr"
+                            width="970" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!-- Aqui vai o seu conteúdo -->
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="footer">
+                    <div class="left">
+                        <p><strong>Endereço:</strong><br>
+                            Brasilia-DF<br>
+                            Conjunto Nacional<br>
+                        </p>
+                    </div>
+
+                        <div class="center">
+                            <p><strong>Atendimento</strong><br>
+                                Segunda há
+                                Sexta<br>
+                            </p>
+                        </div>
+                        <div class="right-footer"><p><strong>WhatsApp</strong><br>
+                            Entre em contato conosco através
+                            do nosso Whatsapp ou por nosso e-mail.
+                            contato@petshop.com.br</p>
+                        </div> 
+                    <!-- Aqui vai o seu rodapé -->
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
